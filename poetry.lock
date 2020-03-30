@@ -120,6 +120,17 @@ docs = ["sphinx"]
 
 [[package]]
 category = "main"
+description = "Extract swagger specs from your flask-restful project. Project based on flask-restful-swagger by Ran Tavory."
+name = "flask-restful-swagger-2"
+optional = false
+python-versions = "*"
+version = "0.35"
+
+[package.dependencies]
+Flask-RESTful = ">=0.2.12"
+
+[[package]]
+category = "main"
 description = "Simple integration of Flask and WTForms."
 name = "flask-wtf"
 optional = false
@@ -424,7 +435,7 @@ docs = ["sphinx", "jaraco.packaging (>=3.2)", "rst.linker (>=1.9)"]
 testing = ["jaraco.itertools", "func-timeout"]
 
 [metadata]
-content-hash = "2218683ae7ef85289a2d04d45efd4c5877fc02b90621a422ada50b18b74e5849"
+content-hash = "b3649deb69bd96ba12245d0d5ff6fcbd11b4cb6483d9fb5cfc6d2b9a92bd3823"
 python-versions = "^3.6"
 
 [metadata.files]
@@ -467,6 +478,9 @@ flask-mongoengine = [
 flask-restful = [
     {file = "Flask-RESTful-0.3.8.tar.gz", hash = "sha256:5ea9a5991abf2cb69b4aac19793faac6c032300505b325687d7c305ffaa76915"},
     {file = "Flask_RESTful-0.3.8-py2.py3-none-any.whl", hash = "sha256:d891118b951921f1cec80cabb4db98ea6058a35e6404788f9e70d5b243813ec2"},
+]
+flask-restful-swagger-2 = [
+    {file = "flask-restful-swagger-2-0.35.tar.gz", hash = "sha256:7f2d0ddaac4677794f5ef82026e47b8f14f35d6f421887f281627878ab27cadb"},
 ]
 flask-wtf = [
     {file = "Flask-WTF-0.14.3.tar.gz", hash = "sha256:d417e3a0008b5ba583da1763e4db0f55a1269d9dd91dcc3eb3c026d3c5dbd720"},
